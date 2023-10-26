@@ -1,0 +1,17 @@
+.auth{
+    background: #F2F2F2;
+    font-family: 'Mulish', sans-serif;
+
+    .auth_content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+
+        .auth_right{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}

@@ -1,0 +1,166 @@
+.auth_left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F2F2F2;
+    height: 100vh;
+    padding: 0 70px;
+    box-shadow: 1px 0px 50px 0.5px rgba(0, 0, 0, 0.25);
+
+    .logo{
+        display: grid;
+        place-items: center;
+    }
+
+    .auth_left_welcome{
+
+        h2{
+            padding-top: 15px;
+            color: #000;
+            font-size: 34px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 0.4px;
+        }
+
+        p{
+            padding-top: 47px;
+            color: #000;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 0.4px;
+        }
+
+        form{
+            padding-top: 45px;
+
+            label{
+                color: #000;
+                font-family: Mulish;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: 0.3px;
+                text-transform: uppercase;
+            }
+
+            .email, .pass{
+                margin-top: 6px;
+                width: 100%;
+                outline: none;
+                border: none;
+                padding: 11px 16px;
+                border-radius: 8px;
+                border: 1px solid #D5D5D8;
+                background: rgba(252, 253, 254, 0.00);
+            }
+        }
+    }
+}
+
+.password{
+    padding-top: 24px;
+}
+
+.forgot_password{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    button{
+        background: none;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        color: #7F73FF;
+        text-align: right;
+        font-family: Mulish;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.3px;
+        text-transform: uppercase;
+    }
+}
+
+.checkbox{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+
+    input{
+        border-radius: 3px;
+        border: 1px solid #000;
+        background: rgba(217, 217, 217, 0.00);
+    }
+}
+
+.btn{
+    padding-top: 23px;
+
+
+    button{
+        color: var(--grayscale-white, #FFF);
+        text-align: center;
+        font-family: Mulish;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        font-size: 18px;
+        border-radius: 8px;
+        background: #000;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px; /* 111.111% */
+        letter-spacing: 0.2px;
+        width: 110%;
+        min-width: 316px;
+        padding: 15px 24px;
+        transition: .2s;
+
+        &:active{
+            scale: 0.95;
+        }
+
+        &:hover{
+            background: #373737;
+        }
+    }
+}
+
+.powered{
+    text-align: center;
+    padding-top: 30px;
+    
+    p{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        justify-content: center;
+        color: #000;
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        letter-spacing: 0.2px;
+
+        a{
+            text-decoration: none;
+            color: #7F73FF;
+            text-align: center;
+            font-family: Mulish;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 0.2px;
+        }
+    }
+}
